@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #363853;
+}
+
+.cuerpo{
+    display: flex;
+    flex: 1;
+}
+
+.menu_lateral{
+    display: flex;
+    border: 1px solid;
+    flex-direction: row;
+    flex: 0.2;
+    margin: 20px;
+}
+
+.contenido{
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px;
+}
+.busqueda{
+    display: flex;
+    border: 1px solid;
+    flex: 0.1;
+}
+#guiar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    height: 2rem;
+    margin: 20px 20px 5px 20px;
+}
+
+
+.usuarios{
+    display: flex;
+    border: 1px solid;
+    flex: 1;
+    flex-direction: column;
+    overflow: auto;
+    
+}
+
+.comprador{
+    display: flex;
+    border: 1px solid;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    margin: 10px 20px 10px 20px;
+}
+
+.comprador input{
+    width: 9%;
+    height: 2rem;
+    margin: 15px;
+    background-color: #404BDA;
+    border: #404BDA;
+}
